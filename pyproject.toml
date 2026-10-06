@@ -14,4 +14,4 @@ authors = [{name = "Seamus Martin"}]
 package-dir = {"" = "src"}
 
 [tool.setuptools.package-data]
-adroit_wpd2text = ["bin/*", "lib/*", "licenses/*"]
+adroit_wpd2text = ["bin/*", "lib/*", "licenses/*", "py.typed"]
