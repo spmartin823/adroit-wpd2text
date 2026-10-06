@@ -1,0 +1,9 @@
+dist/
+build/
+src/adroit_wpd2text/bin/
+src/adroit_wpd2text/lib/
+src/adroit_wpd2text/licenses/
+*.egg-info/
+__pycache__/
+.venv/
+*-install/

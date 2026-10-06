@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools==84.0.0", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adroit-wpd2text"
+version = "0.1.0"
+description = "Small WordPerfect text extraction wrapper around libwpd"
+requires-python = ">=3.9"
+license = "MPL-2.0"
+authors = [{name = "Seamus Martin"}]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+adroit_wpd2text = ["bin/*", "lib/*", "licenses/*"]
